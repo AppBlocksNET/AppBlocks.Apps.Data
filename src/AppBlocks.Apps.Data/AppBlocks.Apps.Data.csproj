@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>AppBlocks.Apps.Data</Description>
+    <Copyright>AppBlocks David Walker Radical Dave</Copyright>
+    <PackageProjectUrl>https://appblocks.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/appblocksnet/appblocks.apps.data</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>0.0.0</Version>
+    <Authors>AppBlocks David Walker Radical Dave</Authors>
+    <Company>AppBlocks David Walker Radical Dave</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>appblocks</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AppBlocks.Apps" Version="0.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
